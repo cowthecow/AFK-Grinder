@@ -1,0 +1,17 @@
+.root {
+    -fx-accent: #64590A;
+    -fx-focus-color: -fx-accent;
+    -fx-base: #1A1D03;
+    -fx-control-inner-background: derive(-fx-base, 35%);
+    -fx-control-inner-background-alt: -fx-control-inner-background ;
+}
+
+#onButton{
+    .root {
+        -fx-accent: #001B37;
+        -fx-focus-color: -fx-accent;
+        -fx-base: #64590A;
+        -fx-control-inner-background: derive(-fx-base, 35%);
+        -fx-control-inner-background-alt: -fx-control-inner-background ;
+    }
+}
